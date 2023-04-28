@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C5DB4147-B57F-4059-A347-701A2517B174"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99B98521-D697-4C9C-9306-071B1F263C00"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FMDB/src/fmdb/FMDatabase.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "607"
+            endingLineNumber = "607"
+            landmarkName = "-bindObject:toColumn:inStatement:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99053A57-E838-40F3-81B1-3E1AB9EFA45B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SQLiteDemo/Utils/KKSqlite.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "352"
+            endingLineNumber = "352"
+            landmarkName = "-lastError"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "99053A57-E838-40F3-81B1-3E1AB9EFA45B - c5e2c2330572d31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[KKSqlite lastError]"
+                  moduleName = "SQLiteDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sands/Desktop/SQLiteDemo/SQLiteDemo/Utils/KKSqlite.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "318"
+                  endingLineNumber = "318"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "99053A57-E838-40F3-81B1-3E1AB9EFA45B - c5e2c23305752bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[KKSqlite lastError]"
+                  moduleName = "SQLiteDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sands/Desktop/SQLiteDemo/SQLiteDemo/Utils/KKSqlite.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "330"
+                  endingLineNumber = "330"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "99053A57-E838-40F3-81B1-3E1AB9EFA45B - c5e2c233057529c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[KKSqlite lastError]"
+                  moduleName = "SQLiteDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sands/Desktop/SQLiteDemo/SQLiteDemo/Utils/KKSqlite.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "331"
+                  endingLineNumber = "331"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "99053A57-E838-40F3-81B1-3E1AB9EFA45B - c5e2c2330575009"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[KKSqlite lastError]"
+                  moduleName = "SQLiteDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sands/Desktop/SQLiteDemo/SQLiteDemo/Utils/KKSqlite.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "342"
+                  endingLineNumber = "342"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A45153DE-2A22-48F5-A767-5AF8E803B4C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SQLiteDemoTests/SQLiteDemoTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-testHitokotoHash"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

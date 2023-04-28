@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8623776729EEA33600FCD4AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623776629EEA33600FCD4AB /* AppDelegate.m */; };
+		8623776A29EEA33600FCD4AB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623776929EEA33600FCD4AB /* SceneDelegate.m */; };
+		8623776D29EEA33600FCD4AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623776C29EEA33600FCD4AB /* ViewController.m */; };
+		8623777029EEA33600FCD4AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8623776E29EEA33600FCD4AB /* Main.storyboard */; };
+		8623777229EEA33900FCD4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8623777129EEA33900FCD4AB /* Assets.xcassets */; };
+		8623777529EEA33900FCD4AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8623777329EEA33900FCD4AB /* LaunchScreen.storyboard */; };
+		8623777829EEA33900FCD4AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623777729EEA33900FCD4AB /* main.m */; };
+		8623778229EEA33900FCD4AB /* SQLiteDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623778129EEA33900FCD4AB /* SQLiteDemoTests.m */; };
+		8623778C29EEA33900FCD4AB /* SQLiteDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623778B29EEA33900FCD4AB /* SQLiteDemoUITests.m */; };
+		8623778E29EEA33900FCD4AB /* SQLiteDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623778D29EEA33900FCD4AB /* SQLiteDemoUITestsLaunchTests.m */; };
+		8623779D29EEA39000FCD4AB /* KKSqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623779C29EEA39000FCD4AB /* KKSqlite.m */; };
+		862377A129EFC6D800FCD4AB /* KKDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 862377A029EFC6D800FCD4AB /* KKDatabase.m */; };
+		862377A429EFD14300FCD4AB /* KKResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 862377A329EFD14300FCD4AB /* KKResultSet.m */; };
+		862377A729F013DF00FCD4AB /* KKStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 862377A629F013DF00FCD4AB /* KKStatement.m */; };
+		86A82B9B29F2301C00435682 /* KKDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A82B9A29F2301C00435682 /* KKDatabaseQueue.m */; };
+		86A82B9D29F26D8D00435682 /* KKDatabaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A82B9C29F26D8D00435682 /* KKDatabaseTests.m */; };
+		86A82B9F29F26DA100435682 /* KKDatabaseQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A82B9E29F26DA100435682 /* KKDatabaseQueueTests.m */; };
+		86A82BA129F2892900435682 /* KKSqliteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A82BA029F2892900435682 /* KKSqliteTests.m */; };
+		86A82BA429F4E0C100435682 /* NSString+KKSqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A82BA329F4E0C100435682 /* NSString+KKSqlite.m */; };
+		86B4CEE829FA77A6006D2D4F /* KKHitokoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B4CEE729FA77A6006D2D4F /* KKHitokoto.m */; };
+		B0D7BFA01DE9040797F39D8B /* Pods_SQLiteDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E183CA330CD19D7CABADA71 /* Pods_SQLiteDemo.framework */; };
+		C325E8FDDF5FCAAA06A63F2F /* Pods_SQLiteDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A5F237AF697D0DA964C775 /* Pods_SQLiteDemoTests.framework */; };
+		EE8132FB369C3E9DF664C672 /* Pods_SQLiteDemo_SQLiteDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0776DDF8E0254AC40F37E1D7 /* Pods_SQLiteDemo_SQLiteDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8623777E29EEA33900FCD4AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8623775A29EEA33600FCD4AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8623776129EEA33600FCD4AB;
+			remoteInfo = SQLiteDemo;
+		};
+		8623778829EEA33900FCD4AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8623775A29EEA33600FCD4AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8623776129EEA33600FCD4AB;
+			remoteInfo = SQLiteDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0776DDF8E0254AC40F37E1D7 /* Pods_SQLiteDemo_SQLiteDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLiteDemo_SQLiteDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A5F237AF697D0DA964C775 /* Pods_SQLiteDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLiteDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41123BF43788F9FB1CC4092D /* Pods-SQLiteDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLiteDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SQLiteDemoTests/Pods-SQLiteDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F7632B6623974FDEFEB87CA /* Pods-SQLiteDemo-SQLiteDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLiteDemo-SQLiteDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SQLiteDemo-SQLiteDemoUITests/Pods-SQLiteDemo-SQLiteDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E183CA330CD19D7CABADA71 /* Pods_SQLiteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLiteDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8623776229EEA33600FCD4AB /* SQLiteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8623776529EEA33600FCD4AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8623776629EEA33600FCD4AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8623776829EEA33600FCD4AB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8623776929EEA33600FCD4AB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8623776B29EEA33600FCD4AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8623776C29EEA33600FCD4AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8623776F29EEA33600FCD4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8623777129EEA33900FCD4AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8623777429EEA33900FCD4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8623777629EEA33900FCD4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8623777729EEA33900FCD4AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8623777D29EEA33900FCD4AB /* SQLiteDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8623778129EEA33900FCD4AB /* SQLiteDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteDemoTests.m; sourceTree = "<group>"; };
+		8623778729EEA33900FCD4AB /* SQLiteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8623778B29EEA33900FCD4AB /* SQLiteDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteDemoUITests.m; sourceTree = "<group>"; };
+		8623778D29EEA33900FCD4AB /* SQLiteDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		8623779B29EEA39000FCD4AB /* KKSqlite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKSqlite.h; sourceTree = "<group>"; };
+		8623779C29EEA39000FCD4AB /* KKSqlite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKSqlite.m; sourceTree = "<group>"; };
+		8623779F29EFC6D800FCD4AB /* KKDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKDatabase.h; sourceTree = "<group>"; };
+		862377A029EFC6D800FCD4AB /* KKDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKDatabase.m; sourceTree = "<group>"; };
+		862377A229EFD14300FCD4AB /* KKResultSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKResultSet.h; sourceTree = "<group>"; };
+		862377A329EFD14300FCD4AB /* KKResultSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKResultSet.m; sourceTree = "<group>"; };
+		862377A529F013DF00FCD4AB /* KKStatement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKStatement.h; sourceTree = "<group>"; };
+		862377A629F013DF00FCD4AB /* KKStatement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKStatement.m; sourceTree = "<group>"; };
+		86A82B9929F2301C00435682 /* KKDatabaseQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKDatabaseQueue.h; sourceTree = "<group>"; };
+		86A82B9A29F2301C00435682 /* KKDatabaseQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKDatabaseQueue.m; sourceTree = "<group>"; };
+		86A82B9C29F26D8D00435682 /* KKDatabaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKDatabaseTests.m; sourceTree = "<group>"; };
+		86A82B9E29F26DA100435682 /* KKDatabaseQueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKDatabaseQueueTests.m; sourceTree = "<group>"; };
+		86A82BA029F2892900435682 /* KKSqliteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKSqliteTests.m; sourceTree = "<group>"; };
+		86A82BA229F4E0C100435682 /* NSString+KKSqlite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+KKSqlite.h"; sourceTree = "<group>"; };
+		86A82BA329F4E0C100435682 /* NSString+KKSqlite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+KKSqlite.m"; sourceTree = "<group>"; };
+		86B4CEE629FA77A6006D2D4F /* KKHitokoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKHitokoto.h; sourceTree = "<group>"; };
+		86B4CEE729FA77A6006D2D4F /* KKHitokoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKHitokoto.m; sourceTree = "<group>"; };
+		9EF7897C3C24BE3DC4A76D1A /* Pods-SQLiteDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLiteDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SQLiteDemoTests/Pods-SQLiteDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7302D397C3BAD5DF84F7406 /* Pods-SQLiteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLiteDemo.debug.xcconfig"; path = "Target Support Files/Pods-SQLiteDemo/Pods-SQLiteDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AB8C74344E3BD8CE8BED993D /* Pods-SQLiteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLiteDemo.release.xcconfig"; path = "Target Support Files/Pods-SQLiteDemo/Pods-SQLiteDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BF77009D11719C69120E22C2 /* Pods-SQLiteDemo-SQLiteDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLiteDemo-SQLiteDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SQLiteDemo-SQLiteDemoUITests/Pods-SQLiteDemo-SQLiteDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8623775F29EEA33600FCD4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D7BFA01DE9040797F39D8B /* Pods_SQLiteDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8623777A29EEA33900FCD4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C325E8FDDF5FCAAA06A63F2F /* Pods_SQLiteDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8623778429EEA33900FCD4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8132FB369C3E9DF664C672 /* Pods_SQLiteDemo_SQLiteDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		734F27C59FECBCD600B5A0B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E183CA330CD19D7CABADA71 /* Pods_SQLiteDemo.framework */,
+				0776DDF8E0254AC40F37E1D7 /* Pods_SQLiteDemo_SQLiteDemoUITests.framework */,
+				20A5F237AF697D0DA964C775 /* Pods_SQLiteDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8623775929EEA33600FCD4AB = {
+			isa = PBXGroup;
+			children = (
+				8623776429EEA33600FCD4AB /* SQLiteDemo */,
+				8623778029EEA33900FCD4AB /* SQLiteDemoTests */,
+				8623778A29EEA33900FCD4AB /* SQLiteDemoUITests */,
+				8623776329EEA33600FCD4AB /* Products */,
+				95180B25FC27A15B6423272C /* Pods */,
+				734F27C59FECBCD600B5A0B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8623776329EEA33600FCD4AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8623776229EEA33600FCD4AB /* SQLiteDemo.app */,
+				8623777D29EEA33900FCD4AB /* SQLiteDemoTests.xctest */,
+				8623778729EEA33900FCD4AB /* SQLiteDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8623776429EEA33600FCD4AB /* SQLiteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8623776529EEA33600FCD4AB /* AppDelegate.h */,
+				8623776629EEA33600FCD4AB /* AppDelegate.m */,
+				8623776829EEA33600FCD4AB /* SceneDelegate.h */,
+				8623776929EEA33600FCD4AB /* SceneDelegate.m */,
+				8623776B29EEA33600FCD4AB /* ViewController.h */,
+				8623776C29EEA33600FCD4AB /* ViewController.m */,
+				86B4CEE629FA77A6006D2D4F /* KKHitokoto.h */,
+				86B4CEE729FA77A6006D2D4F /* KKHitokoto.m */,
+				8623779E29EFC6C000FCD4AB /* KKDB */,
+				8623779A29EEA34300FCD4AB /* Utils */,
+				8623776E29EEA33600FCD4AB /* Main.storyboard */,
+				8623777129EEA33900FCD4AB /* Assets.xcassets */,
+				8623777329EEA33900FCD4AB /* LaunchScreen.storyboard */,
+				8623777629EEA33900FCD4AB /* Info.plist */,
+				8623777729EEA33900FCD4AB /* main.m */,
+			);
+			path = SQLiteDemo;
+			sourceTree = "<group>";
+		};
+		8623778029EEA33900FCD4AB /* SQLiteDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8623778129EEA33900FCD4AB /* SQLiteDemoTests.m */,
+				86A82BA029F2892900435682 /* KKSqliteTests.m */,
+				86A82B9C29F26D8D00435682 /* KKDatabaseTests.m */,
+				86A82B9E29F26DA100435682 /* KKDatabaseQueueTests.m */,
+			);
+			path = SQLiteDemoTests;
+			sourceTree = "<group>";
+		};
+		8623778A29EEA33900FCD4AB /* SQLiteDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8623778B29EEA33900FCD4AB /* SQLiteDemoUITests.m */,
+				8623778D29EEA33900FCD4AB /* SQLiteDemoUITestsLaunchTests.m */,
+			);
+			path = SQLiteDemoUITests;
+			sourceTree = "<group>";
+		};
+		8623779A29EEA34300FCD4AB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8623779B29EEA39000FCD4AB /* KKSqlite.h */,
+				8623779C29EEA39000FCD4AB /* KKSqlite.m */,
+				86A82BA229F4E0C100435682 /* NSString+KKSqlite.h */,
+				86A82BA329F4E0C100435682 /* NSString+KKSqlite.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8623779E29EFC6C000FCD4AB /* KKDB */ = {
+			isa = PBXGroup;
+			children = (
+				8623779F29EFC6D800FCD4AB /* KKDatabase.h */,
+				862377A029EFC6D800FCD4AB /* KKDatabase.m */,
+				86A82B9929F2301C00435682 /* KKDatabaseQueue.h */,
+				86A82B9A29F2301C00435682 /* KKDatabaseQueue.m */,
+				862377A529F013DF00FCD4AB /* KKStatement.h */,
+				862377A629F013DF00FCD4AB /* KKStatement.m */,
+				862377A229EFD14300FCD4AB /* KKResultSet.h */,
+				862377A329EFD14300FCD4AB /* KKResultSet.m */,
+			);
+			path = KKDB;
+			sourceTree = "<group>";
+		};
+		95180B25FC27A15B6423272C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7302D397C3BAD5DF84F7406 /* Pods-SQLiteDemo.debug.xcconfig */,
+				AB8C74344E3BD8CE8BED993D /* Pods-SQLiteDemo.release.xcconfig */,
+				4F7632B6623974FDEFEB87CA /* Pods-SQLiteDemo-SQLiteDemoUITests.debug.xcconfig */,
+				BF77009D11719C69120E22C2 /* Pods-SQLiteDemo-SQLiteDemoUITests.release.xcconfig */,
+				9EF7897C3C24BE3DC4A76D1A /* Pods-SQLiteDemoTests.debug.xcconfig */,
+				41123BF43788F9FB1CC4092D /* Pods-SQLiteDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8623776129EEA33600FCD4AB /* SQLiteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8623779129EEA33900FCD4AB /* Build configuration list for PBXNativeTarget "SQLiteDemo" */;
+			buildPhases = (
+				8E41034DCCA4D26C265E3DAB /* [CP] Check Pods Manifest.lock */,
+				8623775E29EEA33600FCD4AB /* Sources */,
+				8623775F29EEA33600FCD4AB /* Frameworks */,
+				8623776029EEA33600FCD4AB /* Resources */,
+				66B157511EC6B391FD3A8078 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLiteDemo;
+			productName = SQLiteDemo;
+			productReference = 8623776229EEA33600FCD4AB /* SQLiteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8623777C29EEA33900FCD4AB /* SQLiteDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8623779429EEA33900FCD4AB /* Build configuration list for PBXNativeTarget "SQLiteDemoTests" */;
+			buildPhases = (
+				E7A435BB93CEA46313B1F3CA /* [CP] Check Pods Manifest.lock */,
+				8623777929EEA33900FCD4AB /* Sources */,
+				8623777A29EEA33900FCD4AB /* Frameworks */,
+				8623777B29EEA33900FCD4AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8623777F29EEA33900FCD4AB /* PBXTargetDependency */,
+			);
+			name = SQLiteDemoTests;
+			productName = SQLiteDemoTests;
+			productReference = 8623777D29EEA33900FCD4AB /* SQLiteDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8623778629EEA33900FCD4AB /* SQLiteDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8623779729EEA33900FCD4AB /* Build configuration list for PBXNativeTarget "SQLiteDemoUITests" */;
+			buildPhases = (
+				B59D18835F4BB71509D18AAE /* [CP] Check Pods Manifest.lock */,
+				8623778329EEA33900FCD4AB /* Sources */,
+				8623778429EEA33900FCD4AB /* Frameworks */,
+				8623778529EEA33900FCD4AB /* Resources */,
+				8C364DEFA59C1FC7A959B865 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8623778929EEA33900FCD4AB /* PBXTargetDependency */,
+			);
+			name = SQLiteDemoUITests;
+			productName = SQLiteDemoUITests;
+			productReference = 8623778729EEA33900FCD4AB /* SQLiteDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8623775A29EEA33600FCD4AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8623776129EEA33600FCD4AB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					8623777C29EEA33900FCD4AB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8623776129EEA33600FCD4AB;
+					};
+					8623778629EEA33900FCD4AB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8623776129EEA33600FCD4AB;
+					};
+				};
+			};
+			buildConfigurationList = 8623775D29EEA33600FCD4AB /* Build configuration list for PBXProject "SQLiteDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8623775929EEA33600FCD4AB;
+			productRefGroup = 8623776329EEA33600FCD4AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8623776129EEA33600FCD4AB /* SQLiteDemo */,
+				8623777C29EEA33900FCD4AB /* SQLiteDemoTests */,
+				8623778629EEA33900FCD4AB /* SQLiteDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8623776029EEA33600FCD4AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8623777529EEA33900FCD4AB /* LaunchScreen.storyboard in Resources */,
+				8623777229EEA33900FCD4AB /* Assets.xcassets in Resources */,
+				8623777029EEA33600FCD4AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8623777B29EEA33900FCD4AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8623778529EEA33900FCD4AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66B157511EC6B391FD3A8078 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLiteDemo/Pods-SQLiteDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLiteDemo/Pods-SQLiteDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQLiteDemo/Pods-SQLiteDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C364DEFA59C1FC7A959B865 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLiteDemo-SQLiteDemoUITests/Pods-SQLiteDemo-SQLiteDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLiteDemo-SQLiteDemoUITests/Pods-SQLiteDemo-SQLiteDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQLiteDemo-SQLiteDemoUITests/Pods-SQLiteDemo-SQLiteDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E41034DCCA4D26C265E3DAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLiteDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B59D18835F4BB71509D18AAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLiteDemo-SQLiteDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A435BB93CEA46313B1F3CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLiteDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8623775E29EEA33600FCD4AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862377A129EFC6D800FCD4AB /* KKDatabase.m in Sources */,
+				8623776D29EEA33600FCD4AB /* ViewController.m in Sources */,
+				86B4CEE829FA77A6006D2D4F /* KKHitokoto.m in Sources */,
+				862377A429EFD14300FCD4AB /* KKResultSet.m in Sources */,
+				862377A729F013DF00FCD4AB /* KKStatement.m in Sources */,
+				8623776729EEA33600FCD4AB /* AppDelegate.m in Sources */,
+				86A82B9B29F2301C00435682 /* KKDatabaseQueue.m in Sources */,
+				8623779D29EEA39000FCD4AB /* KKSqlite.m in Sources */,
+				8623777829EEA33900FCD4AB /* main.m in Sources */,
+				8623776A29EEA33600FCD4AB /* SceneDelegate.m in Sources */,
+				86A82BA429F4E0C100435682 /* NSString+KKSqlite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8623777929EEA33900FCD4AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A82B9F29F26DA100435682 /* KKDatabaseQueueTests.m in Sources */,
+				86A82BA129F2892900435682 /* KKSqliteTests.m in Sources */,
+				86A82B9D29F26D8D00435682 /* KKDatabaseTests.m in Sources */,
+				8623778229EEA33900FCD4AB /* SQLiteDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8623778329EEA33900FCD4AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8623778C29EEA33900FCD4AB /* SQLiteDemoUITests.m in Sources */,
+				8623778E29EEA33900FCD4AB /* SQLiteDemoUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8623777F29EEA33900FCD4AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8623776129EEA33600FCD4AB /* SQLiteDemo */;
+			targetProxy = 8623777E29EEA33900FCD4AB /* PBXContainerItemProxy */;
+		};
+		8623778929EEA33900FCD4AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8623776129EEA33600FCD4AB /* SQLiteDemo */;
+			targetProxy = 8623778829EEA33900FCD4AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8623776E29EEA33600FCD4AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8623776F29EEA33600FCD4AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8623777329EEA33900FCD4AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8623777429EEA33900FCD4AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8623778F29EEA33900FCD4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8623779029EEA33900FCD4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8623779229EEA33900FCD4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7302D397C3BAD5DF84F7406 /* Pods-SQLiteDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q44Z5857F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SQLiteDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quvideo.SQLiteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8623779329EEA33900FCD4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8C74344E3BD8CE8BED993D /* Pods-SQLiteDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q44Z5857F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SQLiteDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quvideo.SQLiteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8623779529EEA33900FCD4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF7897C3C24BE3DC4A76D1A /* Pods-SQLiteDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q44Z5857F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quvideo.SQLiteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLiteDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SQLiteDemo";
+			};
+			name = Debug;
+		};
+		8623779629EEA33900FCD4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41123BF43788F9FB1CC4092D /* Pods-SQLiteDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q44Z5857F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quvideo.SQLiteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLiteDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SQLiteDemo";
+			};
+			name = Release;
+		};
+		8623779829EEA33900FCD4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7632B6623974FDEFEB87CA /* Pods-SQLiteDemo-SQLiteDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q44Z5857F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quvideo.SQLiteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQLiteDemo;
+			};
+			name = Debug;
+		};
+		8623779929EEA33900FCD4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF77009D11719C69120E22C2 /* Pods-SQLiteDemo-SQLiteDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q44Z5857F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quvideo.SQLiteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQLiteDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8623775D29EEA33600FCD4AB /* Build configuration list for PBXProject "SQLiteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8623778F29EEA33900FCD4AB /* Debug */,
+				8623779029EEA33900FCD4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8623779129EEA33900FCD4AB /* Build configuration list for PBXNativeTarget "SQLiteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8623779229EEA33900FCD4AB /* Debug */,
+				8623779329EEA33900FCD4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8623779429EEA33900FCD4AB /* Build configuration list for PBXNativeTarget "SQLiteDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8623779529EEA33900FCD4AB /* Debug */,
+				8623779629EEA33900FCD4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8623779729EEA33900FCD4AB /* Build configuration list for PBXNativeTarget "SQLiteDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8623779829EEA33900FCD4AB /* Debug */,
+				8623779929EEA33900FCD4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8623775A29EEA33600FCD4AB /* Project object */;
+}
